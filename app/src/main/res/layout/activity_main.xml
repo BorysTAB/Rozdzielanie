@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nr_domu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Witaj w  bazie danych\n
+        Zdecyduj co chcesz zrobic"
+        android:textColor="@color/darkblue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button1"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="wpisz"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/button2"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="wypisz"
+        />
+</LinearLayout>

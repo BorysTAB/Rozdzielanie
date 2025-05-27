@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dodaj"
+        android:title="Dodaj ucznia"
+        android:icon="@android:drawable/ic_input_add"/>
+    <item
+        android:id="@+id/nav_wyswietl"
+        android:title="Wyświetl uczniów"
+        android:icon="@android:drawable/ic_menu_view"/>
+</menu>

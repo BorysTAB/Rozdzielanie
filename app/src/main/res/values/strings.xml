@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rozdzielanie</string>
+    <string name="button1">Wpisz</string>
+    <string name="button2">Wypisz</string>
+    <string name="hint1">Wpisz imie</string>
+    <string name="hint2">Wpisz nazwisko</string>
+    <string name="hint3">Wpisz klasę</string>
+    <string name="tekst1">Dane zostały dodane do bazy</string>
+    <string name="button3">Wprowadź kolejną osobę</string>
+</resources>
